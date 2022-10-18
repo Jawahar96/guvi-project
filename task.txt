@@ -1,0 +1,11 @@
+HTTP 1.1:
+It uses text based commands for HTTP requests.
+It can load one requests at a time. Hence one request per one TCP connection is possible.
+
+HTTP2:
+It is binary and not textual.
+It gives multiple request and response in parallel without blocking on anyone.
+It uses single TCP connection to deliver multiple requests/responses (in parallel).
+It allows to server to push in client caches proactively.
+
+ 
